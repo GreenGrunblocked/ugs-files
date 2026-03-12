@@ -27,6 +27,7 @@
 	<script type="text/javascript" src="./PsychEngine.js"></script>
 	
 	<script>
+	alert("Known issue: entering the options menu results in a freeze due to a missing asset. Ditto for attempting to select songs. For more information, see https://discord.com/channels/1300950641115529266/1480621546296053974/1481589443864301589. If you are not an editor, do not play this until a fix has been found as it doesn't work. Apologies for the inconvenience. Editors, please remove this line once the issue has been resolved.")
 		window.addEventListener ("touchmove", function (event) { event.preventDefault (); }, { capture: false, passive: false });
 		if (typeof window.devicePixelRatio != 'undefined' && window.devicePixelRatio > 2) {
 			var meta = document.getElementById ("viewport");
